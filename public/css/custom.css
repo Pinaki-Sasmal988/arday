@@ -1,0 +1,415 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+/***********indexpagestarts*******************/
+.logo-class{
+    font-size:23px;
+    color:#ffffff;
+}
+header{
+  /*background: linear-gradient(to right, #480048, #C04848);*/
+}
+div#carouselExampleSlidesOnly {
+    position:relative;
+}
+.dropdown-menu.header-dropdown.show::-webkit-scrollbar {
+  width: 1.1em;
+  background-color:#eae8e8;
+  border-left:1px solid #efefef;
+  border-radius:2px 2px 15px 15px;
+} 
+.dropdown-menu.header-dropdown.show::-webkit-scrollbar-thumb {
+  background-color: #c5c5c5;
+  border-radius:105px;
+}
+#indexpopup{
+    margin-top:74px !important;
+    min-height: 77vh !important;
+    max-width: 630px !important;
+    max-height: 81vh !important;
+    overflow-y:hidden !important;
+}
+
+#login_bg, #register_bg, #admission_bg{
+    background: hsla(265, 53%, 29%, 1);
+    background: linear-gradient(
+180deg
+, hsla(265, 53%, 29%, 1) 0%, hsla(24, 93%, 73%, 1) 100%);
+    background: -moz-linear-gradient(180deg, hsla(265, 53%, 29%, 1) 0%, hsla(24, 93%, 73%, 1) 100%);
+    background: -webkit-linear-gradient(
+180deg
+, hsla(265, 53%, 29%, 1) 0%, hsla(24, 93%, 73%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#432371", endColorstr="#faae7b", GradientType=1 );
+}
+.for_marquee{
+  height: 78px;
+  border-radius: 5px;
+background-color: #0771d6;
+box-shadow: 3px 3px 7px 1px #2b2b2b;
+}
+.marquee-text-parent{
+    text-align:none;
+}
+.marquee-image{
+    float:right;
+}
+.marquee-parent-div{
+    padding-bottom:5px !important;
+    padding-top:20px !important;
+}
+.admisson2021-parent{
+    padding-top:30px !important;
+}
+.header-dropdown{
+  margin-top: 12px !important;
+    width: 300px !important;
+    height: 270px !important;
+    overflow-y: auto;
+    border-radius: 5px !important;
+}
+.dropdown-header-items{
+    padding: 15px 20px !important;
+    padding-left: 30px !important;
+    line-height: 1;
+    font-size: 0.8125rem !important;
+    color: #000;
+    border-bottom: 1px solid #ededed;
+}
+.hero_single.version_2 {
+    height: 800px !important;
+}
+#search-box-container {
+    position:absolute;
+    z-index:9999999;
+    top: 350px;
+    bottom: auto;
+    right: 10%;
+    left: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    background: linear-gradient(to right, #480048, #C04848);
+    box-shadow: 0px 0px 20px 0px #333;
+    /*left:10px; /* change to whatever you want
+    right:auto; /* change to whatever you want
+    bottom:auto; /* change to whatever you want */
+}
+.carousel-img {
+  height: 800px;
+}
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+background: hsla(214, 92%, 47%, 1);
+
+background: linear-gradient(90deg, hsla(214, 92%, 47%, 0.17) 0%, hsla(231, 85%, 24%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(214, 92%, 47%, 0.17) 0%, hsla(231, 85%, 24%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(214, 92%, 47%, 0.17) 0%, hsla(231, 85%, 24%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0968E5", endColorstr="#091970", GradientType=1 );
+}
+.index-college-category-image{
+    padding: 20px;
+}
+.rating-index{
+    display: none;
+}
+.course-category{
+  padding-left: 0 !important;
+  margin-top: 15px;
+  margin-bottom: 15px !important;
+}
+.course-category-fig{
+  width: 100% !important;
+}
+.course-category-img{
+  width: 55% !important;
+  padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 35px;
+}
+.course-category-figcaption{
+  width: 100% !important;
+  height: 55px !important;
+  color: #fff !important;
+  background-color:#0078ea !important;
+}
+.why-choose-image{
+  padding:10px;
+  padding-top: 7px !important;
+}
+.box_grid figure .preview span {
+  background-color:rgba(161,53,72,0.9); ;
+  color: #fff;
+  font-weight: bold;
+}
+.college_list_search_field{
+  width: 100%;
+}
+.college_list_search_field ul{
+  width:83.5%;
+  padding: 15px 25px 25px 25px;
+  height: 190px;
+  overflow-x: auto;
+}
+.horizontal-rule{
+  margin: 0 !important;
+}
+/***********indexpageends*******************/
+
+/***********college-listpagestarts*******************/
+.box_grid ul li:last-child a{
+  padding: 4px 12px;
+}
+.collg-list-fig-img{
+  height: 170px !important;
+}
+.collg-list-collg-img{
+  padding: 12px 10px 10px 10px;
+}
+.box_grid .wrapper h3 {
+  margin-bottom: 15px;
+}
+.college-brief-ul{
+  padding: 5px 0px !important;
+  margin-bottom: 5px !important;
+}
+.college-brief-li{
+  float: none !important;
+  display: block !important;
+  margin-right: 0px !important;
+  margin-bottom: 5px;
+}
+.icons-college-page{
+  color:#33ab2b !important;
+}
+.full-details-btn{
+    background: #fff;
+    border: 2px solid #1a42ec;
+    padding: 4px 12px;
+    color: #1a42ec;
+    font-weight: 500;
+    line-height: 1;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    /* -webkit-transition: all 0.3s ease-in-out; */
+    -ms-transition: all 0.3s ease-in-out;
+    /* transition: all 0.3s ease-in-out; */
+    /* -webkit-border-radius: 30px; */
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+}
+.full-details-btn:hover{
+  background: #1a42ec;
+  border: 2px solid #1a42ec;
+  color: #fff;
+}
+.state-filter{
+  height: 200px;
+  overflow-y: scroll;
+}
+.box_grid {
+  border: 1px solid #a5a2a3;
+}
+.apply-modal-aside{
+  margin-top: 68px;
+  width: auto !important;
+  max-width: 750px !important;
+  height: 400px !important;
+  max-height: 500px !important;
+  left: 10% !important;
+  right: 10% !important;
+  padding-bottom: 4px !important;
+}
+.modal-dialog {
+    max-width: 100% !important;
+}
+.apply-modal-figure{
+  margin-bottom: 5px !important;
+}
+.apply-modal-form{
+  margin-bottom: 0px !important;
+}
+.divider-custom{
+  margin-top: 16px !important;
+  margin-bottom: 6px !important;
+}
+#secondary_nav_apply{
+  display:none;
+}
+.box_grid .wrapper {
+     height: 305px;
+}
+ul.additional_info li i {
+    /* font-size: 52px; */
+    font-size: 2.25rem;
+    display: block;
+     margin-bottom: 6px; 
+}
+.border-bottom-details{
+    border-bottom: 3px solid #ededed;
+    margin-bottom: 45px;
+}
+.cap-form{
+  width: 760px !important;
+  height: auto !important;
+  margin-top: 90px !important;
+  margin-bottom: 20px !important;
+}
+#intro > figure {
+     margin-bottom: 8px !important; 
+}
+.login-aside{
+    position: unset !important;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    min-height: 72vh !important;
+    padding-bottom:30px !important;
+}
+.register-aside{
+    margin-top: 55px !important;
+    min-height:69vh !important;
+    max-height: 87vh !important;
+}
+.register_input_field{
+    padding-bottom:0.75rem !important;
+}
+#login figure, #register figure {
+    margin-bottom:0px !important;
+    padding-top:8px !important;
+    padding-bottom:8px !important;
+}
+#login aside form, #register aside form{
+    margin-bottom:30px !important;
+}
+#indexpopupform{
+    margin-bottom: 10px !important;
+    margin-top: 5px !important;
+}
+.authmodal_input_field{
+    margin-top:0.5em;
+}
+.login-page-bg{
+  /*background-image: none !important;*/
+  /*background-color: #ccc !important;*/
+  min-height: 85vh !important;
+}
+.input__label-content-edit{
+  padding: 0 0 !important;
+}
+.ucheck{
+    width: 18px;
+    vertical-align: bottom;
+    height: 18px;
+    margin-right: 5px;
+}
+/***********college-listpageends*******************/
+/***********mediaquery**************/
+/***********indexpagestarts*******************/
+@media (max-width: 767px) {
+.logo-text{
+    display:none;
+}
+ul#top_menu{
+    margin-top:25px;
+}
+  .carousel-img {
+    height: 800px;
+  }
+  #search-box-container{
+    /*top: 187.5px;*/
+    right: 0%; 
+     left: 0%;
+  }
+  #hero_in{
+      height:450px;
+  }
+#main_menu {
+    margin-top:85px;
+}  
+  .collg-list-fig-img{
+  height: 170px !important;
+}
+.apply-modal-aside{
+  margin-top: 68px;
+  width: auto !important;
+  height: 400px !important;
+}
+.modal-dialog {
+    max-width: 100%;
+    margin: 1.75rem auto;
+}
+#secondary_nav_apply{
+  display:block;
+}
+.cap-form{
+  width: 96% !important;
+}
+.marquee-image{
+    float:none;
+    padding-bottom:0 !important;
+}
+.for_marquee{
+    height:auto;
+}
+.marquee-image-parent{
+    text-align:center;
+}
+.marquee-text-parent{
+    text-align:center;
+}
+.marquee-text{
+    font-size:17px !important;
+}
+}
+@media (max-width: 1008px) {
+  .collg-list-fig-img{
+  height: 100px !important;
+}
+#indexpopup {
+    margin-top:164px !important;
+}
+}
+@media (max-width: 376px) {
+  #logo{
+  float: none !important;
+  text-align:center;
+}
+#logo img {
+    width: 100px !important;
+    height: auto;
+}
+ul#top_menu {
+    margin-top: 8px !important;
+}
+.header-dropdown {
+    margin-top: 10px !important;
+    width: 270px !important;
+    height: 200px !important;
+    overflow-y: auto;
+}
+
+#indexpopup {
+    margin-top:164px !important;
+}
+}
+@media(max-width:1199px){
+    .course-category-figcaption{
+    height: 59px !important;
+
+}
+a.box_news figure figcaption strong {
+    font-size:17px !important;
+}
+}
+/***********indexpageends*******************/
+/***********************/

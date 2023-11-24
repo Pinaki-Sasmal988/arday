@@ -1,0 +1,204 @@
+@extends('layouts.main')
+@section('myApplications-css')
+<style type="text/css">
+
+header {background: -webkit-linear-gradient(left, #480048, #C04848);
+background: linear-gradient(to right, #480048, #C04848);}
+.bg_color_1{
+	margin-top: 65px;
+}
+</style>    
+@endsection
+@section('myApplications-content')
+	<main>
+		<!--/hero_in
+		<section id="hero_in" class="cart_section">
+			<div class="wrapper">
+				<div class="container">
+					<div class="bs-wizard clearfix">
+						<div class="bs-wizard-step active">
+							<div class="text-center bs-wizard-stepnum">Your cart</div>
+							<div class="progress">
+								<div class="progress-bar"></div>
+							</div>
+							<a href="#0" class="bs-wizard-dot"></a>
+						</div>
+
+						<div class="bs-wizard-step disabled">
+							<div class="text-center bs-wizard-stepnum">Payment</div>
+							<div class="progress">
+								<div class="progress-bar"></div>
+							</div>
+							<a href="#0" class="bs-wizard-dot"></a>
+						</div>
+
+						<div class="bs-wizard-step disabled">
+							<div class="text-center bs-wizard-stepnum">Finish!</div>
+							<div class="progress">
+								<div class="progress-bar"></div>
+							</div>
+							<a href="#0" class="bs-wizard-dot"></a>
+						</div>
+					</div>
+					 End bs-wizard 
+				</div>
+			</div>
+		</section>
+		/hero_in-->
+
+		<div class="bg_color_1">
+			<div class="container margin_60_35">
+				<div class="row">
+					<div class="col-lg-5 mx-auto" style="height: 650px;">
+						<div class="box_cart" style="height: 650px;">
+						<table class="table table-striped cart-list" >
+							<thead> <h4 class="text-center">Common Applications</h4><hr>
+								<tr>
+									<th>
+										Name
+									</th>
+									<th>
+										Course
+									</th>
+									<th>
+										State
+									</th>
+								</tr>
+							</thead>
+							<tbody>
+								@if(count($cap_apps) !== 0)
+								@foreach($cap_apps as $app)
+								<tr>
+									<td>
+										<span class="item_cart">{{$app->name}}</span>
+									</td>
+									<td>
+										{{$app->course}}
+									</td>
+									<td>
+										{{$app->state}}
+									</td>
+								</tr>
+								@endforeach
+								@else
+								<tr>
+									<td>
+										<span class="item_cart">{{'No Records Found'}}</span>
+									</td>
+									<td>
+									</td>
+									<td></td>	
+								</tr>
+								@endif
+							</tbody>
+						</table>
+						
+						{{--<div class="cart-options clearfix">
+							
+							<div class="float-left">
+								<div class="apply-coupon">
+									<div class="form-group">
+										<input type="text" name="coupon-code" value="" placeholder="Your Coupon Code" class="form-control">
+									</div>
+									<div class="form-group">
+										<button type="button" class="btn_1 outline">Back</button>
+									</div>
+								</div>
+							</div>
+							
+							<div class="text-center fix_mobile">
+								<button type="button" class="btn_1 outline">Back</button>
+							</div>
+						</div> --}}
+						<!-- /cart-options -->
+					</div>
+					</div>
+					<!-- /col -->
+					<div class="col-lg-6 mx-auto" style="height: 650px;">
+						<div class="box_cart" style="height: 650px;">
+						<table class="table table-striped cart-list">
+							<thead> <h4 class="text-center">College Applications</h4><hr>
+								<tr>
+									<th>
+										Name
+									</th>
+									<th>
+										Course
+									</th>
+									<th>
+										College
+									</th>
+									<th>
+										State
+									</th>
+								</tr>
+							</thead>
+							<tbody>
+								@if(count($college_applications) !== 0)
+								@foreach($college_applications as $application)
+								<tr>
+									<td>
+										<span class="item_cart">{{$application->name}}</span>
+									</td>
+									<td>
+										{{$application->course}}
+									</td>
+									<td>
+										<strong>{{$application->college}}</strong>
+									</td>
+									<td >
+										{{$application->state}}
+									</td>
+								</tr>
+								@endforeach
+								@else
+								<tr>
+									<td>
+										<span class="item_cart">{{'No Records Found'}}</span>
+									</td>
+									<td>
+									</td>
+									<td></td>	
+								</tr>
+								@endif
+							</tbody>
+						</table>
+						
+						{{--<div class="cart-options clearfix">
+							
+							<div class="float-left">
+								<div class="apply-coupon">
+									<div class="form-group">
+										<input type="text" name="coupon-code" value="" placeholder="Your Coupon Code" class="form-control">
+									</div>
+									<div class="form-group">
+										<button type="button" class="btn_1 outline">Back</button>
+									</div>
+								</div>
+							</div>
+							
+							<div class="text-center fix_mobile">
+								<button type="button" class="btn_1 outline">Back</button>
+							</div>
+						</div> --}}
+						<!-- /cart-options -->
+					</div>
+					</div>
+					{{--<aside class="col-lg-4" id="sidebar">
+						<div class="box_detail">
+							<div id="total_cart">
+								Total <span class="float-right">69.00$</span>
+							</div>
+							<div class="add_bottom_30">Lorem ipsum dolor sit amet, sed vide <strong>moderatius</strong> ad. Ex eius soleat sanctus pro, enim conceptam in quo, <a href="#0">brute convenire</a> appellantur an mei.</div>
+							<a href="cart-2.html" class="btn_1 full-width">Checkout</a>
+							<a href="courses-grid-sidebar.html" class="btn_1 full-width outline"><i class="icon-right"></i> Continue Shopping</a>
+						</div>
+					</aside> --}}
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /bg_color_1 -->
+	</main>
+@endsection
